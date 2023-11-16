@@ -11,6 +11,7 @@ public class Hora {
         // Obtener la hora y los minutos
         int hora = horaActual.getHour();
         int minutos = horaActual.getMinute();
+        String minutosFormateados = String.format("%02d", minutos);
 
         // Imprimir un saludo según la hora del sistema
         if (hora < 12) {
@@ -22,6 +23,6 @@ public class Hora {
         }
 
         // Imprimir la hora actual
-        System.out.println("La hora actual es: " + hora + ":" + minutos);
+        System.out.println("La hora actual es: " + hora + ":" + minutosFormateados);
 	}
 }
