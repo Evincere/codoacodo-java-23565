@@ -1,4 +1,4 @@
-package clase05_poo_herencia;
+package clase06_poo_polimorfismo;
 
 public class Empleado {
 
@@ -25,6 +25,4 @@ public class Empleado {
 	public String getNombre() {
 		return this.nombre;
 	}
-	
-	
 }

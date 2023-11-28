@@ -1,4 +1,4 @@
-package clase05_poo_herencia;
+package clase06_poo_polimorfismo;
 
 public class Desarrollador extends Empleado  {
 

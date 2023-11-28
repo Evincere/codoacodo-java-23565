@@ -1,4 +1,4 @@
-package clase05_poo_herencia;
+package clase06_poo_polimorfismo;
 
 public class Gerente extends Empleado {
 
@@ -15,9 +15,8 @@ public class Gerente extends Empleado {
 		System.out.println("Dirigiendo el departamento " + this.departamento);
 	}
 	
-	
 	public void trabajar() {
-		System.out.println("Trabajo gerenciado ...");
+		System.out.println("Trabajo gerenciando");
 	}
 	
 }
