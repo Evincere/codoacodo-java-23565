@@ -14,9 +14,13 @@ public class Gerente extends Empleado {
 	public void dirigir() {
 		System.out.println("Dirigiendo el departamento " + this.departamento);
 	}
-	
+
+	@Override
 	public void trabajar() {
 		System.out.println("Trabajo gerenciando");
+		
 	}
+	
+	
 	
 }

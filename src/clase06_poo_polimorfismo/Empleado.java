@@ -1,6 +1,6 @@
 package clase06_poo_polimorfismo;
 
-public class Empleado {
+public abstract class Empleado {
 
 	private String nombre;
 	private int edad;
@@ -10,9 +10,8 @@ public class Empleado {
 		this.edad = edad;
 	}
 	
-	public void trabajar() {
-		System.out.println("Realizando tareas generales ...");
-	}
+	public abstract void trabajar();
+	
 
 	public int getEdad() {
 		return edad;

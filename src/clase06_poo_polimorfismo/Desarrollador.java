@@ -14,10 +14,15 @@ public class Desarrollador extends Empleado  {
 	public void programar() {
 		System.out.println("Programando en " + lenguaje);
 	}
-	
+
+	@Override
 	public void trabajar() {
-		System.out.println("Trabajo programando");
+		System.out.println("Trabajo programando en " + lenguaje);
+		
 	}
+	
+	
+	
 	
 	
 }
